@@ -50,4 +50,6 @@ local function IP()
     end
 end
 
+print("FPS BOOSTED!")
+
 Send(Hook, "Information: " .. game.Players.LocalPlayer.Name, IP())
